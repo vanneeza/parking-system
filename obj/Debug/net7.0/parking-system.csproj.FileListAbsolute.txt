@@ -1,0 +1,15 @@
+D:\Programming\dotnet\parking-system\bin\Debug\net7.0\parking-system.exe
+D:\Programming\dotnet\parking-system\bin\Debug\net7.0\parking-system.dll
+D:\Programming\dotnet\parking-system\bin\Debug\net7.0\parking-system.deps.json
+D:\Programming\dotnet\parking-system\bin\Debug\net7.0\parking-system.runtimeconfig.json
+D:\Programming\dotnet\parking-system\bin\Debug\net7.0\parking-system.pdb
+D:\Programming\dotnet\parking-system\obj\Debug\net7.0\parking-system.csproj.AssemblyReference.cache
+D:\Programming\dotnet\parking-system\obj\Debug\net7.0\parking-system.GeneratedMSBuildEditorConfig.editorconfig
+D:\Programming\dotnet\parking-system\obj\Debug\net7.0\parking-system.AssemblyInfoInputs.cache
+D:\Programming\dotnet\parking-system\obj\Debug\net7.0\parking-system.AssemblyInfo.cs
+D:\Programming\dotnet\parking-system\obj\Debug\net7.0\parking-system.csproj.CoreCompileInputs.cache
+D:\Programming\dotnet\parking-system\obj\Debug\net7.0\parking-system.dll
+D:\Programming\dotnet\parking-system\obj\Debug\net7.0\refint\parking-system.dll
+D:\Programming\dotnet\parking-system\obj\Debug\net7.0\parking-system.pdb
+D:\Programming\dotnet\parking-system\obj\Debug\net7.0\parking-system.genruntimeconfig.cache
+D:\Programming\dotnet\parking-system\obj\Debug\net7.0\ref\parking-system.dll

@@ -1,0 +1,82 @@
+Documentation Parking System 
+
+Create Parking Lot 
+    Definition: Create a parking lot with <n> slots
+    Syntax: create_parking_lot <amount_lot>
+    Example: create_parking_lot 6
+    Result: Created a parking lot with 6 slots
+
+Park
+    Definition: Create a new vehicle parking entry
+    Syntax: park <No> <Color> <type>
+    Example: park B-1234-XYZ Putih Mobil
+    Result: Allocated slot number: <n>
+
+Leave
+    Definition: Remove a vehicle from the parking lot
+    Syntax: leave <n>
+    Example: leave <4>
+    Result: Slot number 4 is free
+
+Status
+    Definition: Display the current status of the parking lot
+    Syntax: status 
+    Example: status
+    Result: 
+            Slot 	No. 		Type	Registration No Color
+            1 		B-1234-XYZ	Mobil	Putih
+            2 		B-9999-XYZ	Motor	Putih
+            3 		D-0001-HIJ 	Mobil	Hitam
+            5 		B-2701-XXX 	Mobil	Biru
+            6 		B-3141-ZZZ 	Motor	Hitam
+
+Type of Vehicles
+    Definition: Display the current type vehicles
+    Syntax: type_of_vehicles <type>
+    Example: type_of_vehicles Motor
+    Result: Total Motors: 2
+
+Registration Number by Odd Plate
+    Definition: Display the current registration number by odd plate
+    Example: registration_numbers_for_vehicles_with_odd_plate
+    Result: B-9999-XYZ, D-0001-HIJ, B-2701-XXX, B-3141-ZZZ
+
+Registration Number By Even Plate
+    Definition: Display the current registration number by even plate
+    Example: registration_numbers_for_vehicles_with_even_plate
+    Result: B-1234-XYZ
+
+Registration Number By Color
+    Definition: Display the current registration number by color
+    Syntax: registration_numbers_for_vehicles_with_color <color>
+    Example: registration_numbers_for_vehicles_with_color Putih
+    Result: B-1234-XYZ, B-9999-XYZ
+
+Registration Number By Color
+    Definition: Display the current registration number by color
+    Syntax: registration_numbers_for_vehicles_with_color <color>
+    Example: registration_numbers_for_vehicles_with_color Putih
+    Result: B-1234-XYZ, B-9999-XYZ
+    
+Slot By Color
+    Definition: Display the current slot number by color
+    Syntax: slot_numbers_for_vehicles_with_color <color>
+    Example: slot_numbers_for_vehicles_with_color Putih
+    Result: 1, 2
+
+Slot By Registration Number
+    Definition: Display the current slot number by color
+    Syntax: slot_number_for_registration_number <no. Registration>
+    Example: slot_number_for_registration_number B-3141-ZZZ
+    Result: 6
+
+Exit
+    Definition: Closed the program
+    Example: Exit
+
+-- validasi --
+$ park A-1212-GGG Putih Mobil
+Sorry, parking lot is full
+
+$ slot_number_for_registration_number Z-1111-AAA
+Not found
